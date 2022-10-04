@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Group-12</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Navbar-->
+    <div class="navbar">
+      <div class="container flex">
+        <div class="flex">
+          <h1 class="logo" id="logo"><a href="#">Logo.</a></h1>
+          <nav>
+            <ul>
+              <div class="dropdown">
+                <button class="dropbtn">
+                  Action & Costs
+                  <i class="fa fa-chevron-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn">
+                  Doctor
+                  <i class="fa fa-chevron-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn">
+                  Services
+                  <i class="fa fa-chevron-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Help</a></li>
+            </ul>
+          </nav>
+        </div>
+        <ul class="login">
+          <li class="white-btn"><a href="#">Log In</a></li>
+          <li class="blue-btn"><a href="#">Sign Up</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!--Landing Page-->
+    <div class="first-page container flex">
+      <div class="text">
+        <div class="type1">-Optometrists and Opthalmologists</div>
+        <div class="type2">Your Eye is Your Sun & We Care</div>
+        <div class="type3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, ea
+          alias? Excepturi suscipit doloremque quas ullam tempora distinctio!
+          Laborum, reiciendis.
+        </div>
+        <div class="btns">
+          <div class="blue-btn">Outpatient</div>
+          <div class="white-btn">Registration</div>
+        </div>
+      </div>
+      <div class="image"><img src="Pic-1.jpg" /></div>
+    </div>
+
+    <!--Registration-->
+    <div class="register">
+      <div>
+        <label for="action"><strong>Action</strong></label
+        ><br />
+        <select name="action" id="action">
+          <option value="Retina">Retina</option>
+          <option value="Glaucoma" default>Glaucoma</option>
+          <option value="Cataract">Cataract</option>
+          <option value="Lasik">Lasik</option>
+          <option value="Oculoplasty">Oculoplasty</option>
+        </select>
+      </div>
+      <div>
+        <label for="date"><strong>Date</strong></label
+        ><br />
+        <input type="date" value="22 february" id="date" />
+      </div>
+      <div>
+        <label for="doctor"><strong>Doctor</strong></label
+        ><br />
+        <select name="doctor" id="doctor">
+          <option value="dr.waluyo,PHD">Dr.Waluyo,PHD</option>
+        </select>
+      </div>
+      <div>
+        <label for="location"><strong>Location</strong></label
+        ><br />
+        <select name="location" id="location">
+          <option value="di yogyakartta">D.I Yogyakartta</option>
+        </select>
+      </div>
+      <div>
+        <button class="blue-btn">Submit</button>
+      </div>
+    </div>
+
+    <!--Education-->
+    <div class="education">
+      <div class="education-content">
+        <div class="inner-education-content">
+          <p class="type1">-Education</p>
+          <h1 class="type2">What About Eye Disease?</h1>
+          <p>
+            eye diseas is the health disorder common in this community. it can
+            in the form red eyes,itching,burning,and may also lead to blindness.
+            there are some common types of disease in indonesia
+          </p>
+        </div>
+      </div>
+
+      <div class="education-1-content">
+        <div class="inner-education-1-content">
+          <div class="education-icon"><i class="fas fa-notes-medical"></i></div>
+          <h2 class="type2">Retina</h2>
+          <p>some of the most common types of retinal disease</p>
+          <span><button class="white-btn">submit</button></span>
+        </div>
+        <div class="inner-education-1-content">
+          <div class="education-icon"><i class="fas fa-notes-medical"></i></div>
+          <h2 class="type2">Glaucoma</h2>
+          <p>some of the most common types of retinal disease</p>
+          <span><button class="white-btn">submit</button></span>
+        </div>
+        <div class="inner-education-1-content">
+          <div class="education-icon"><i class="fas fa-notes-medical"></i></div>
+          <h2 class="type2">Gataract</h2>
+          <p>some of the most common types of retinal disease</p>
+          <span><button class="white-btn">submit</button></span>
+        </div>
+        <div class="inner-education-1-content">
+          <div class="education-icon"><i class="fas fa-notes-medical"></i></div>
+          <h2 class="type2">Lasik</h2>
+          <p>some of the most common types of retinal disease</p>
+          <span><button class="white-btn">submit</button></span>
+        </div>
+        <div class="inner-education-1-content">
+          <div class="education-icon"><i class="fas fa-notes-medical"></i></div>
+          <h2 class="type2">Oculoplasty</h2>
+          <p>some of the most common types of retinal disease</p>
+          <span><button class="white-btn">submit</button></span>
+        </div>
+      </div>
+    </div>
+
+    <br /><br />
+
+    <!--Waras-->
+
+    <div class="waras">
+      <div class="parameters">
+        <div class="eachelement">
+          <h1 class="type2">99.22%</h1>
+          <p class="type1">positive feedback</p>
+          <p class="stupid">from out patient</p>
+        </div>
+        <div class="eachelement">
+          <h1 class="type2">2000+</h1>
+          <p class="type1">patient recover</p>
+          <p class="stupid">from out doctor</p>
+        </div>
+        <div class="eachelement">
+          <h1 class="type2">22</h1>
+          <p class="type1">clinic location</p>
+          <p class="stupid">capital city</p>
+        </div>
+        <div class="eachelement">
+          <h1 class="type2">33+</h1>
+          <p class="type1">surgery room</p>
+          <p class="stupid">from clinics</p>
+        </div>
+      </div>
+      <div class="inside">
+        <div class="foundation-imgBox">
+          <img src="Pic-2.jpg" />
+        </div>
+        <div class="foundation">
+          <p class="type1">-About us</p>
+          <h1><span>Waras</span> EyeCare Vision and Mission</h1>
+          <p class="type2">
+            at waras foundation our vision is to be a role model for
+            international standard healthcare our mission is always strive to
+            provide best quality treatment and patient care by proffesionals who
+            are competent in their fields with high ethics.
+          </p>
+          <br /><br />
+          <button class="blue-btn">read more</button>
+        </div>
+      </div>
+    </div>
+
+    <!--Facilities-->
+
+    <div class="facilities">
+      <div class="comp">
+        <p class="type1">-Our Facilities</p>
+        <h1 class="type2">Personal Service and <span>Good</span> Attempt</h1>
+        <p class="type3">
+          To make your treatment comfortable and according to what you accept,
+          we provide the following facilities:
+        </p>
+        <ul class="type1">
+          <li>
+            <i class="fa-regular fa-circle-check icon"></i> Upto date
+            instruments and medical facilities
+          </li>
+          <li>
+            <i class="fa-regular fa-circle-check icon"></i> laboratory and
+            pharmacy
+          </li>
+          <li>
+            <i class="fa-regular fa-circle-check icon"></i> ethical doctors
+          </li>
+          <li>
+            <i class="fa-regular fa-circle-check icon"></i> systematic and well
+            structured appointment of doctors
+          </li>
+          <li>
+            <i class="fa-regular fa-circle-check icon"></i> ethical doctors
+          </li>
+          <li>
+            <i class="fa-regular fa-circle-check icon"></i> upto date
+            instruments and medical facilities
+          </li>
+          <li>
+            <i class="fa-regular fa-circle-check icon"></i> systematic and well
+            structured appointment of doctors
+          </li>
+          <li>
+            <i class="fa-regular fa-circle-check icon"></i> laboratory and
+            pharmacy
+          </li>
+        </ul>
+      </div>
+      <div class="comp pic">
+        <img src="Pic-3.jpg" />
+      </div>
+    </div>
+
+    <!--Services-->
+
+    <div class="service">
+      <div class="only-text">
+        <p class="type1">-What We Serve</p>
+        <h1 class="type2">Our Services</h1>
+      </div>
+      <div class="images">
+        <div class="Box">
+          <div class="ImgBox"><img src="Retina.jpg" alt="" /></div>
+          <div class="stuff">
+            <h3 class="type2">Retina</h3>
+            <p class="type1">Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+        <div class="Box">
+          <div class="ImgBox"><img src="Latora.jpg" alt="" /></div>
+          <div class="stuff">
+            <h3 class="type2">Latora</h3>
+            <p class="type1">Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+        <div class="Box">
+          <div class="ImgBox"><img src="Robanor.jpg" alt="" /></div>
+          <div class="stuff">
+            <h3 class="type2">Robanor</h3>
+            <p class="type1">Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+      </div>
+      <br /><br />
+      <div class="service-offered">
+        <button class="blue-btn">Service Offered</button>
+      </div>
+    </div>
+
+    <br /><br />
+
+    <section class="doctors">
+      <div class="title white">
+        <h2 class="type1">-Doctors</h2>
+        <h2 class="type2">Our <span>high</span> quality doctors</h2>
+      </div>
+      <div class="content">
+        <div class="box">
+          <div class="profile">
+            <div class="imgBx"><img src="Doc-1.jpeg" /></div>
+            <div class="write">
+              <h3>Doctor</h3>
+              <p>Lorem, ipsum dolor.</p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="profile">
+            <div class="imgBx"><img src="Doc-2.jpg" /></div>
+            <div class="write">
+              <h3>Doctor</h3>
+              <p>Lorem, ipsum dolor.</p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="profile">
+            <div class="imgBx"><img src="Doc-3.jpg" /></div>
+            <div class="write">
+              <h3>Doctor</h3>
+              <p>Lorem, ipsum dolor.</p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="profile">
+            <div class="imgBx"><img src="Doc-4.jpg" /></div>
+            <div class="write">
+              <h3>Doctor</h3>
+              <p>Lorem, ipsum dolor.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="button">
+        <button class="blue-btn">See more doctors</button>
+      </div>
+    </section>
+
+    <br /><br /><br />
+
+    <section class="testimonials" id="testimonials">
+      <div class="title white">
+        <h2 class="type1">-Testimonials</h2>
+        <h2 class="type2">What <span>they</span> said about us</h2>
+      </div>
+      <div class="slider">
+        <div class="content active">
+          <div class="box">
+            <div class="profile">
+              <div class="imgBx"><img src="testi1.jpg" /></div>
+              <div class="write">
+                <h3>Someone Famous</h3>
+                <p>Lorem, ipsum dolor.</p>
+              </div>
+            </div>
+            <div class="type1">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus
+                labore perferendis facere expedita laboriosam dolorum sapiente
+                id ullam quis nisi.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="profile">
+              <div class="imgBx"><img src="testi2.jpg" /></div>
+              <div class="write">
+                <h3>Someone Famous</h3>
+                <p>Lorem, ipsum dolor.</p>
+              </div>
+            </div>
+            <div class="type1">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Reiciendis odit doloribus perspiciatis vitae animi recusandae,
+                sint exercitationem temporibus laborum adipisci!
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="profile">
+              <div class="imgBx"><img src="testi3.jpg" /></div>
+              <div class="write">
+                <h3>Someone Famous</h3>
+                <p>Lorem, ipsum dolor.</p>
+              </div>
+            </div>
+            <div class="type1">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+                numquam laboriosam quos sit, facilis doloribus impedit obcaecati
+                exercitationem velit ab?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="box">
+            <div class="profile">
+              <div class="imgBx"><img src="testi3.jpg" /></div>
+              <div class="write">
+                <h3>Someone Famous</h3>
+                <p>Lorem, ipsum dolor.</p>
+              </div>
+            </div>
+            <div class="type1">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti ratione deserunt id vel qui aliquam minus magnam iusto
+                excepturi rem.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="profile">
+              <div class="imgBx"><img src="testi2.jpg" /></div>
+              <div class="write">
+                <h3>Someone Famous</h3>
+                <p>Lorem, ipsum dolor.</p>
+              </div>
+            </div>
+            <div class="type1">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
+                quasi beatae eligendi voluptates reiciendis saepe soluta iusto
+                totam minus veniam.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="profile">
+              <div class="imgBx"><img src="testi1.jpg" /></div>
+              <div class="write">
+                <h3>Someone Famous</h3>
+                <p>Lorem, ipsum dolor.</p>
+              </div>
+            </div>
+            <div class="type1">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Laboriosam nam, vel voluptates sed nobis officia consectetur
+                minus aliquid explicabo obcaecati!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="box">
+            <div class="profile">
+              <div class="imgBx"><img src="testi3.jpg" /></div>
+              <div class="write">
+                <h3>Someone Famous</h3>
+                <p>Lorem, ipsum dolor.</p>
+              </div>
+            </div>
+            <div class="type1">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                impedit quis ut quas commodi! Necessitatibus deserunt soluta
+                cumque exercitationem modi.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="profile">
+              <div class="imgBx"><img src="testi1.jpg" /></div>
+              <div class="write">
+                <h3>Someone Famous</h3>
+                <p>Lorem, ipsum dolor.</p>
+              </div>
+            </div>
+            <div class="type1">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro,
+                reiciendis similique neque esse laudantium commodi dolorum quasi
+                sit explicabo amet.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="profile">
+              <div class="imgBx"><img src="testi2.jpg" /></div>
+              <div class="write">
+                <h3>Someone Famous</h3>
+                <p>Lorem, ipsum dolor.</p>
+              </div>
+            </div>
+            <div class="type1">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque
+                recusandae officia laborum! Totam molestiae accusamus eveniet
+                nobis. Tempore, deserunt id!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="page-dots">
+      <span class="dot active"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+
+    <div class="footer">
+      <div class="footer1">
+        <div class="final-submit">
+          <div class="submit1">
+            <p class="type1">-Registration</p>
+            <p class="type2">Want to Register Outpatient Easily?</p>
+          </div>
+          <div class="submit1">
+            <button class="white-btn">Submit</button>
+          </div>
+        </div>
+        <div class="main-footer">
+          <div class="inner-footer">
+            <img src="logo_image_1.png" />
+          </div>
+
+          <div class="inner-footer">
+            <h2 class="type1">About us</h2>
+            <p class="type3">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime
+              suscipit deserunt doloremque. Commodi at reiciendis, quis
+              doloribus totam similique recusandae.
+            </p>
+          </div>
+
+          <div class="inner-footer">
+            <h2 class="type1">Treatment</h2>
+            <p class="type3">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime
+              suscipit deserunt doloremque. Commodi at reiciendis, quis
+              doloribus totam similique recusandae.
+            </p>
+          </div>
+
+          <div class="inner-footer">
+            <h2 class="type1">Location</h2>
+            <p class="type3">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime
+              suscipit deserunt doloremque. Commodi at reiciendis, quis
+              doloribus totam similique recusandae.
+            </p>
+          </div>
+
+          <div class="inner-footer">
+            <h2 class="type1">More</h2>
+            <p class="type3">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime
+              suscipit deserunt doloremque. Commodi at reiciendis, quis
+              doloribus totam similique recusandae.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      const slides = document.querySelectorAll(".content");
+      const dots = document.querySelectorAll(".dot");
+
+      function setActive(i) {
+        for (dot of dots) dot.classList.remove("active");
+        dots[i].classList.add("active");
+        for (slide of slides) slide.classList.remove("active");
+        slides[i].classList.add("active");
+      }
+
+      for (let j = 0; j < dots.length; j++) {
+        dots[j].addEventListener("click", function () {
+          setActive(j);
+        });
+      }
+    </script>
+  </body>
+</html>
